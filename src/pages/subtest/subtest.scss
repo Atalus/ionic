@@ -1,0 +1,81 @@
+page-subtest {
+
+colorm {
+		color: #ef4c23 !important;
+	}
+
+	colora {
+		color: #6bb540 !important;
+	}
+
+
+ion-content {
+  
+    display: flex;
+}
+
+ion-grid{
+		margin-top: 35px;
+		    align-items: center;
+	}
+
+	ion-row{
+width: 75%;
+		text-align: center;
+	}
+
+	ion-col{
+		
+
+	}
+	.alemania{
+	background-image: url("../assets/images/flags/alemania.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+	.usa{
+	background-image: url("../assets/images/flags/usa.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+	.francia{
+	background-image: url("../assets/images/flags/francia.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+	.brasil{
+	background-image: url("../assets/images/flags/brasil.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+	.italia{
+	background-image: url("../assets/images/flags/italia.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+	.china{
+	background-image: url("../assets/images/flags/china.png");
+    background-size: 146px 80px;
+    background-repeat: no-repeat;
+	}
+
+
+	 .rojo{
+		margin-top: 10px;
+	    padding: 22px 10px 10px 10px;
+		height: 80px;
+		color: #FFFFFF;
+		align-content: center;
+    text-align: center;
+	}
+	.rojo img{
+		width: 25%; float: left;
+	}
+
+	.rojo div{
+		width: 45%; float: left; margin-left: 25px;     padding-top: 2%;
+	}
+
+	
+
+}

@@ -1,0 +1,20 @@
+page-resultado-ubicacion {
+
+.container-resultado{
+	    width: 100%;
+
+    align-content: center;
+    text-align: center;
+  
+    border-top: gray;
+    border-top-style: solid;
+
+  
+}
+
+	.container-resultado:before{
+		background-image: url(assets/images/flags/usa.png);
+	    background-size: cover;
+	    opacity: 0.5;
+	}
+}

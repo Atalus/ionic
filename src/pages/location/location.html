@@ -1,0 +1,53 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Planteles</ion-title>
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+
+	<div #pleaseConnect id="please-connect">
+		<p>Por favor, conectate a internet...</p>
+
+	</div>
+
+	<div #map id="map"></div>
+
+	
+
+</ion-content>
+<ion-footer style="background-color: #FFFFFF">
+  <ion-toolbar>
+    <ion-grid no-padding class="ion-grid-footer">
+  
+  <ion-row style="background-color: white;" no-padding>
+    <ion-col no-padding >
+      <ion-item>
+     
+    <ion-label stacked>Selecciona un plantel</ion-label>
+     <ion-select (ionChange)="onSelectChange($event)">
+   <ion-option *ngFor="let plantel of planteles" >{{plantel}}</ion-option>
+   
+
+  </ion-select>
+  
+  </ion-item>
+
+    </ion-col>
+  
+
+    <ion-col>
+     <ion-item>
+    
+  </ion-item>
+
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+  </ion-toolbar>
+</ion-footer>

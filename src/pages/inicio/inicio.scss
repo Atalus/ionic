@@ -1,0 +1,69 @@
+page-inicio {
+
+	.clearfix{
+		content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+	}
+
+ion-content {
+   /* background-image: url("../assets/images/fondo-textura.png"); */
+    background-size: cover;
+    display: flex;
+}
+	 .toolbar-md-secondary .toolbar-title-md {
+   font-size: medium;
+   color: gray;
+    font-weight: 200;
+}
+
+	ion-navbar{
+
+	}
+
+	ion-grid{
+		margin-top: 35px;
+		    align-items: center;
+	}
+
+	ion-row{
+width: 65%;
+		text-align: center;
+	}
+
+	ion-col{
+	
+
+	}
+
+	 .rojo{
+		
+	    padding: 22px 10px 10px 10px;
+		height: 180px;
+		color: #FFFFFF;
+		align-content: center;
+    text-align: center;
+	}
+	.rojo img{
+		width: 100%;
+	}
+
+	.rojo div{
+		width: 50%; float: left; margin-left: 25px;     padding-top: 2%;
+	}
+
+	ion-col .amarillo{
+	    border: white;
+    border-style: solid;
+		background-color: #f69100;
+		color: #FFFFFF;
+		align-content: center;
+    text-align: center;
+	}
+
+	ion-col img{
+	width: 80%
+	}
+}

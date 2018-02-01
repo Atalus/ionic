@@ -1,0 +1,24 @@
+<ion-content padding>
+  <div class="center_screen">
+    <img class="logo" src="assets/images/logo-reflejo.png" alt="Logo">
+    <div class="input_area">
+      <ion-icon name="md-person"></ion-icon>
+    <input type="text" [(ngModel)]="userData.username" placeholder="Matrícula" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="input_area">
+      <ion-icon name="md-lock"></ion-icon>
+    <input type="password" [(ngModel)]="userData.password"  placeholder="Contraseña" [ngModelOptions]="{standalone: true}">
+    </div>
+    <button ion-button full color="primary" (tap)="login()">Entrar</button>
+
+  <div class="buttonsfooter">
+
+    <div class="internofooter-izq" (tap)="gotoforgotpassword()"> <ion-icon style="font-size: xx-large !important;" name="ios-key-outline"></ion-icon> <br> ¿Olvidaste tu contraseña?</div>
+    <div class="internofooter-derecha"  (tap)="signup()"> <ion-icon style="font-size: xx-large !important;" name="ios-people-outline"></ion-icon> <br>Crear cuenta</div>
+  </div>
+
+
+   
+  </div>
+
+</ion-content>

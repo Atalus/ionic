@@ -1,0 +1,61 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+--><link rel="stylesheet" href="assets/font-awesome.min.css">
+<ion-header>
+
+  <ion-navbar hideBackButton color="primary">
+    <ion-title>{{title}}</ion-title>
+
+     <ion-buttons start>
+      <button ion-button icon-only (click)="backMenu()">
+        <ion-icon name="arrow-back"></ion-icon> Salir
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+<div *ngIf="showTest">
+<h3>Pregunta #{{NumPregunta}}</h3>
+<p>{{pregunta}}</p>
+ <form [formGroup]="rateForm" (ngSubmit)="siguientePregunta()">
+
+    
+
+<ion-list  formControlName="opcionesForm" radio-group>
+  <ion-item>
+    <ion-label>{{opcion1}}</ion-label>
+    <ion-radio value="select1" checked></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>{{opcion2}}</ion-label>
+    <ion-radio value="select2"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>{{opcion3}}</ion-label>
+    <ion-radio value="select3"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>{{opcion4}}</ion-label>
+    <ion-radio value="select4"></ion-radio>
+  </ion-item>
+</ion-list>
+
+ <!-- Real floating action button, fixed. It will not scroll with the content -->
+ <ion-fab>
+   <button type="submit" ion-fab>Siguiente</button>
+ </ion-fab>
+
+
+
+    </form>
+    </div>
+    <div *ngIf="showPreloader" style="background-color: #FFFFFF; height: 100%; width: 100%;">
+      <img src="assets/images/01-progress.gif">
+    </div>
+
+</ion-content>

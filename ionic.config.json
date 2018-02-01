@@ -1,5 +1,8 @@
 {
   "name": "ivei",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "6eb75f1a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

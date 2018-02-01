@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Perfil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<div class="profile-image">
+      <img src="{{user.avatar}}" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />
+    </div>
+    <h3 id="menu-heading1" style="color:#000000;font-weight:300;text-align:center;">
+      {{user.name}}  <ion-icon (click)="goToDetails()" name="create"></ion-icon><br>
+    </h3>
+    <h2>Examenes:</h2>
+<ion-item no-padding *ngFor="let examen of responseData">
+        <ion-avatar item-left>
+          <img width="70%" src="assets/images/fondo.png" />
+        </ion-avatar>
+        <h2 style="font-weight: bold;">
+          {{examen.nombre}}
+        </h2>
+        Calificación {{examen.promedio}}
+      </ion-item>
+</ion-content>

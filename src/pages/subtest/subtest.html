@@ -1,0 +1,142 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Examenes: {{title}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+       <img style="    width: 50%;" src="assets/images/logomapa-white.png">
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-grid *ngIf="isPrep" >
+
+  <ion-row>
+    <ion-col style="    margin-bottom: 100px;" class="rojo" *ngFor="let exmn of indices" (tap)="goToSub(this.exmn)" col-6 col-12>
+      <table style="margin: 0 auto; text-align: center" cellspacing="0" cellpadding="0">
+          <tr>
+           <td *ngIf="exmn.img == 'bis.png'" style="background-image: url(assets/images/icons/prepa/bis.png);
+     background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'unexamen.png'" style="background-image: url(assets/images/icons/prepa/unexamen.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #ef4b23;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 20px;
+    font-size: 1.2em; "></td>
+          </tr>
+        </table>
+        <ion-col style="    color: #ef4b23;
+    font-size: 1.1em;">
+{{exmn.nombre}}
+        </ion-col>
+    
+
+ </ion-col>
+
+  
+   </ion-row>
+
+
+
+</ion-grid>
+
+
+<div *ngIf="isComp" clas="container">
+
+
+<ion-grid>
+  <ion-row>
+    <ion-col *ngFor="let exmn of indices" (tap)="goToSub(this.exmn)" col-6 col-lg>
+      <table style="margin: 0 auto; max-width: 90px;" cellspacing="0" cellpadding="0">
+          <tr>
+            <td *ngIf="exmn.img == 'webmaster.png'" style="background-image: url(assets/images/icons/cursos/webmaster.png);
+     background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'administrativo.png'" style="background-image: url(assets/images/icons/cursos/administrativo.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'autocad.png'" style="background-image: url(assets/images/icons/cursos/autocad.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'computacion-basica.png'" style="background-image: url(assets/images/icons/cursos/computacion-basica.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'diseno.png'" style="background-image: url(assets/images/icons/cursos/diseno.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'informatica.png'" style="background-image: url(assets/images/icons/cursos/informatica.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'mantenimiento.png'" style="background-image: url(assets/images/icons/cursos/mantenimiento.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+    <td *ngIf="exmn.img == 'programacion.png'" style="background-image: url(assets/images/icons/cursos/programacion.png);
+    background-size: cover;
+    width: 90px;height: 90px; max-width: 90px;"></td>
+
+          </tr>
+          <tr>
+            <td style="
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1em;">{{exmn.nombre}}</td>
+          </tr>
+        </table>
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+
+	<!--<button *ngFor="let exmn of indices" (tap)="goToSub(this.exmn)" ion-button full>{{exmn.nombre}}</button>-->
+
+
+</div>
+
+	<ion-grid style="    width: 60%;" *ngIf="isFlag">
+
+  <ion-row *ngFor="let exmn of indices" [ngSwitch]="exmn.sub_sub" (click)="goToSub(this.exmn)">
+
+     <ion-col *ngSwitchCase="3" class="rojo usa" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+    <ion-col *ngSwitchCase="4" class="rojo francia" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+    <ion-col *ngSwitchCase="5" class="rojo alemania" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+    <ion-col *ngSwitchCase="6" class="rojo brasil" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+    <ion-col *ngSwitchCase="7" class="rojo italia" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+     <ion-col *ngSwitchCase="8" class="rojo china" (tap)="goToSub(1)">
+  
+     
+    </ion-col>
+
+
+   </ion-row>
+
+</ion-grid>
+
+
+</ion-content>

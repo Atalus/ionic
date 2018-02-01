@@ -1,0 +1,134 @@
+<ion-content class="appBackground">
+  <ion-card>
+    <ion-card-header>
+      Crear cuenta como alumno Pre-Existente
+    </ion-card-header>
+    <ion-card-content>
+    <form [formGroup]="myDetailsForm">
+      <ion-list>
+      <ion-item style="align-items: baseline;">
+          <ion-label style="color: red" stacked>Matrícula</ion-label>
+          <ion-input style="width: 40%" type="text" formControlName="matriculaForm"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Nombre(s)</ion-label>
+          <ion-input type="text" formControlName="nameForm"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Apellido</ion-label>
+          <ion-input type="text" formControlName="lastNameForm"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked>Email</ion-label>
+          <ion-input type="text" formControlName="emailForm"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked>Teléfono</ion-label>
+          <ion-input type="text" formControlName="telForm"></ion-input>
+        </ion-item>
+		<ion-item>
+    <ion-label stacked>Sexo</ion-label>
+     <ion-select formControlName="sexoForm">
+
+	<ion-option value="*">*Selecciona tu sexo</ion-option>
+    <ion-option  value="Masculino">Masculino</ion-option>
+	<ion-option  value="Femenino">Femenino</ion-option>
+
+  </ion-select>
+  </ion-item>
+        <ion-item>
+    <ion-label stacked>Estado</ion-label>
+     <ion-select formControlName="estadoForm" (ionChange)="onSelectEstadoChange($event)">
+
+	<ion-option value="*">*Selecciona tu estado</ion-option>
+    <ion-option  value="Aguascalientes">Aguascalientes</ion-option>
+    <ion-option value="Baja California">Baja California</ion-option>
+    <ion-option value="Baja California Sur">Baja California Sur</ion-option>
+    <ion-option value="Campeche">Campeche</ion-option>
+    <ion-option value="Coahuila de Zaragoza">Coahuila de Zaragoza</ion-option>
+    <ion-option value="Colima">Colima</ion-option>
+    <ion-option value="Chiapas">Chiapas</ion-option>
+    <ion-option value="Chihuahua">Chihuahua</ion-option>
+    <ion-option value="Distrito Federal">Distrito Federal</ion-option>
+    <ion-option value="Durango">Durango</ion-option>
+    <ion-option value="Guanajuato">Guanajuato</ion-option>
+    <ion-option value="Guerrero">Guerrero</ion-option>
+    <ion-option value="Hidalgo">Hidalgo</ion-option>
+    <ion-option value="Jalisco">Jalisco</ion-option>
+    <ion-option value="México">México</ion-option>
+    <ion-option value="Michoacán de Ocampo">Michoacán de Ocampo</ion-option>
+    <ion-option value="Morelos">Morelos</ion-option>
+    <ion-option value="Nayarit">Nayarit</ion-option>
+    <ion-option value="Nuevo León">Nuevo León</ion-option>
+    <ion-option value="Oaxaca">Oaxaca</ion-option>
+    <ion-option value="Puebla">Puebla</ion-option>
+    <ion-option value="Querétaro">Querétaro</ion-option>
+    <ion-option value="Quintana Roo">Quintana Roo</ion-option>
+    <ion-option value="San Luis Potosí">San Luis Potosí</ion-option>
+    <ion-option value="Sinaloa">Sinaloa</ion-option>
+    <ion-option value="Sonora">Sonora</ion-option>
+    <ion-option value="Tabasco">Tabasco</ion-option>
+    <ion-option value="Tamaulipas">Tamaulipas</ion-option>
+    <ion-option value="Tlaxcala">Tlaxcala</ion-option>
+    <ion-option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</ion-option>
+    <ion-option value="Yucatán">Yucatán</ion-option>
+    <ion-option value="Zacatecas">Zacatecas</ion-option>
+
+
+  </ion-select>
+  </ion-item>
+  <ion-item *ngIf="showMunicipio">
+    <ion-label stacked>Municipio</ion-label>
+    <ion-select formControlName="municipioForm" (ionChange)="onSelectMunicipioChange($event)">
+    	<ion-option value="*">*Selecciona tu municipio</ion-option>
+		<ion-option *ngFor="let municipio of municipios" value="{{municipio.municipio}}">{{municipio.municipio}}</ion-option>
+	</ion-select>
+  </ion-item>
+  <ion-item *ngIf="showColonia">
+    <ion-label stacked>Colonia</ion-label>
+    <ion-select formControlName="coloniaForm" (ionChange)="onSelectColoniaChange($event)">
+    	<ion-option value="*">*Selecciona tu colonia</ion-option>
+		<ion-option *ngFor="let colonia of colonias" value="{{colonia.cp}}">{{colonia.colonia}}</ion-option>
+	</ion-select>
+  </ion-item>
+  <ion-item>
+          <ion-label stacked>C.P.</ion-label>
+          <ion-input type="number" formControlName="cpForm"></ion-input>
+        </ion-item>
+        <ion-item>
+    <ion-label stacked>Selecciona tu Plantel</ion-label>
+     <ion-select formControlName="plantelForm">
+
+	<ion-option value="*" >*Selecciona tu plantel actual</ion-option>
+    <ion-option  value="1">Tránsito</ion-option>
+	<ion-option  value="2">Chapalita</ion-option>
+	<ion-option  value="3">Oblatos</ion-option>
+	<ion-option  value="4">Colón</ion-option>
+	<ion-option  value="5">León</ion-option>
+	<ion-option  value="6">Cancún</ion-option>
+	<ion-option  value="7">Santa Margarita</ion-option>
+	<ion-option  value="21">Cancún Sur</ion-option>
+
+  </ion-select>
+  </ion-item>
+
+        <ion-item style="margin-bottom: 20px">
+          <ion-label stacked>Contraseña (mínimo 6 caracteres).</ion-label>
+          <ion-input type="password" formControlName="passForm"></ion-input>
+        </ion-item>
+
+        <div *ngIf="showError" id="login-markdown2" class="show-list-numbers-and-dots error-box">
+      <p style="color:#FFFFFF;">
+        {{error}}
+      </p>
+    </div>
+
+        <button ion-button full color="success" (click)="signup()">Crear Cuenta</button>
+        <a  href="#" (click)="login()">Regresar</a>
+      </ion-list>
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,98 @@
+<ion-header>
+
+  <ion-navbar color="naranja">
+    <ion-title>Examenes</ion-title>
+
+     <ion-buttons end>
+      <button ion-button icon-only>
+       <img style="    width: 50%;" src="assets/images/logomapa-white.png">
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding *ngIf="showTests">
+
+
+<ion-grid>
+
+  <ion-row>
+    <ion-col class="rojo" (tap)="goToSub(5)">
+      <table style="margin: 0 auto; text-align: center" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/computacion.png);
+    background-size: cover;
+    width: 100px;height: 100px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #ef4b23;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em; ">Computación</td>
+          </tr>
+        </table>
+
+ </ion-col>
+
+  
+   </ion-row>
+
+
+
+    <ion-row>
+      <ion-col class="rojo" (tap)="goToSub(6)">
+      <table style="margin: 0 auto; text-align: center" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/idiomas.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #ef4b23;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Idiomas</td>
+          </tr>
+        </table>
+
+ </ion-col>
+
+    
+   </ion-row>
+
+
+    <ion-row>
+     
+
+      <ion-col class="rojo" (tap)="goToSub(7)">
+
+       <table style="margin: 0 auto; width: 90px; text-align: center" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/preparatoria.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #ef4b23;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Preparatoria</td>
+          </tr>
+        </table>
+    </ion-col>
+   </ion-row>
+  
+
+</ion-grid>
+
+</ion-content>
+
+<ion-content padding *ngIf="showTestsIngles">
+
+<button (click)="goToSub(666)" style="background-color: #f69200" ion-button full>Exámen Ingles</button>
+</ion-content>

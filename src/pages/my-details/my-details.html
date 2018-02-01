@@ -1,0 +1,62 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>
+    	Mis datos
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+	<ion-card>
+
+		<ion-card-header>
+			Mis Datos
+		</ion-card-header>
+
+		<ion-card-content>
+		Es importante mantener tus datos actualizados.
+		</ion-card-content>
+
+	</ion-card>	
+
+	<ion-list no-lines>
+		<form [formGroup]="myDetailsForm" (change)="saveForm()">
+		<ion-item>
+			<ion-label stacked>Sexo</ion-label>
+     <ion-select placeholder="Selecciona una opción." (ionChange)="saveForm()" formControlName="prefijoForm">
+    <ion-option  value="Masculino">Masculino</ion-option>
+    <ion-option value="Femenino">Femenino</ion-option>
+    
+
+  </ion-select>
+		</ion-item>
+		<ion-item>
+			<ion-label stacked>Nombre</ion-label>
+			<ion-input formControlName="nameForm" type="text"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label stacked>Apellido</ion-label>
+			<ion-input formControlName="lastNameForm" type="text"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label stacked>Email</ion-label>
+			<ion-input formControlName="mailForm" type="mail"></ion-input>
+		</ion-item>
+
+
+		<ion-item>
+			<ion-label stacked>Contraseña</ion-label>
+			<ion-input formControlName="passForm" type="password"></ion-input>
+		</ion-item>
+
+		
+</form>
+
+	</ion-list>
+
+</ion-content>

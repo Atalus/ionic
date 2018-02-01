@@ -33,14 +33,83 @@ $app-direction: ltr;
 // colors so you can add, rename and remove colors as needed.
 // The "primary" color is the only required color in the map.
 
+
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
+  primary:    #c1151d,
+  lightprimary: #EDE7F6,
+   secondary:  #FFFFFF,
+   danger:     #f53d3d,
+   morado: #eb037b,
+   dark:       #222,
+  lightdark:  #b7b7b7,
   light:      #f4f4f4,
-  dark:       #222
+   davorite:   #69BB7B,
+  extralight: #fff,
+  facebook:   #3b5998,
+  twitter:    #429cd6,
+  gmail:      #df4b37,
+  bg  :       #f1f4f5,
+  lightbg  :  #f8f8f8,
+  stable:     #F8F8F8,
+  bordercolor: rgba(183, 183, 183, 0.39),
+  naranja: #ef4c23
 );
 
+//fonsize
+
+$font: (
+  big:          2.3rem,
+  extramedium:  1.9rem,
+  largemedium:  1.6rem,
+  medium:       1.5rem,
+  small:        1.5rem,
+  bitsmall:     1.4rem,
+  smallbtn:     1.3rem,
+);
+
+//margin
+
+$margin: (
+  big:      32px,
+  medium:   16px,
+  small:    8px,
+  bitsmall: 4px,
+);
+
+//padding
+
+$padding: (
+  sixteen: 16px,
+  eighteen: 8px,
+);
+
+
+$height:(
+  btnheight: 4rem,
+  roundbtn:  5rem,
+  propic:  20rem,
+  smallbtn: 3rem,
+  large:    7rem,
+);
+
+
+$width:(
+  logo: 14rem,
+  roundbtn:  5rem,
+  propic:  20rem,
+  btnwidth: 4rem,
+);
+
+$radius: (
+  big:      8px,
+  medium:   4px,
+  small:    2px,
+);
+
+$list-ios-border-color: #fff;
+$list-md-border-color: #fff;
+
+$button-ios-border-radius: 0px; 
 
 // App iOS Variables
 // --------------------------------------------------

@@ -1,0 +1,156 @@
+
+<ion-header>
+
+  <ion-navbar color="secondary" hideBackButton="true">
+  
+      <button menuToggle ion-button icon-only (tap)="openMenu()">
+        <ion-icon color="primary" name="options"></ion-icon>
+      </button>
+   
+
+    <ion-title style="text-align: center;">
+       Bienvenido {{this.dataService.username}}
+    </ion-title>
+
+   
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+       <img style="    width: 50%;" src="assets/images/logomapa.png">
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+<ion-grid>
+
+  <ion-row>
+    <ion-col class="rojo" (tap)="goToSub(1)">
+      <table style="margin: 0 auto;" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/test1.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #ef4b23;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Test</td>
+          </tr>
+        </table>
+
+ </ion-col>
+
+     <ion-col class="rojo" (tap)="goToSub(2)">
+
+       <table style="margin: 0 auto; width: 90px" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/ubicacion.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #6cb640;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Examen de ubicación</td>
+          </tr>
+        </table>
+    </ion-col>
+   </ion-row>
+
+
+
+    <ion-row>
+      <ion-col class="rojo" (click)="openLink(this.inicios)">
+      <table style="margin: 0 auto;" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/inicios.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #8561ab;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Inicios</td>
+          </tr>
+        </table>
+
+ </ion-col>
+
+    
+
+     
+      <ion-col class="rojo" (tap)="goToSub(4)">
+
+       <table style="margin: 0 auto; width: 90px" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/planteles1.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #00b5ca;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Planteles</td>
+          </tr>
+        </table>
+    </ion-col>
+   </ion-row>
+
+
+    <ion-row>
+      <ion-col class="rojo" (tap)="goToSub(6)">
+      <table style="margin: 0 auto;" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/qr1.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #feba11;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Códigos QR</td>
+          </tr>
+        </table>
+
+ </ion-col>
+
+      <ion-col class="rojo" (tap)="goToSub(5)">
+
+       <table style="margin: 0 auto; width: 90px" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="background-image: url(assets/images/icons/ecuenta1.png);
+    background-size: cover;
+    width: 90px;height: 90px;"></td>
+          </tr>
+          <tr>
+            <td style="color: #eb037b;
+    background-image: url(assets/images/icons/bottom.png);
+    background-size: cover;
+    height: 50px;
+    font-size: 1.2em;">Estado de cuenta</td>
+          </tr>
+        </table>
+    </ion-col>
+   </ion-row>
+  
+
+</ion-grid>
+
+
+
+</ion-content>

@@ -1,0 +1,34 @@
+page-pagos {
+
+ion-grid{
+		margin-top: 35px;
+		    align-items: center;
+	}
+
+	ion-row{
+width: 45%;
+		text-align: center;
+	}
+
+	ion-col{
+	
+
+	}
+
+	 .rojo{
+		
+	    padding: 22px 10px 10px 10px;
+		height: 80px;
+		color: #FFFFFF;
+		align-content: center;
+    text-align: center;
+	}
+	.rojo img{
+		width: 25%; float: left;
+	}
+
+	.rojo div{
+		width: 55%; float: left; margin-left: 25px;     padding-top: 2%;font-size: 1.1em;
+	}
+
+}

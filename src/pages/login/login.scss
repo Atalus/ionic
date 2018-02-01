@@ -1,0 +1,120 @@
+page-login {
+
+.buttonsfooter{
+      width: 84%;
+    margin-top: 30px;
+}
+  .internofooter-izq{
+  float: left;
+   opacity: 0.5;
+   color: grey;
+  }
+.internofooter-derecha{
+  float: right;
+   opacity: 0.5;
+   color: grey;
+}
+.error-box{
+     clear: both;
+    padding:10px;
+    border:1px solid darken(#EF473A, 10%);
+    background-color: #EF473A;
+    border-radius:4px;
+    margin-bottom:10px;
+    
+    p{
+        color:white;
+        margin:0px;
+    }
+}
+
+  ion-content {
+   background-color: #FFFFFF;
+    .scroll-content {
+      display: flex;
+      .center_screen {
+            text-align: -webkit-center;
+padding-top: 100px;
+       /* margin: auto;*/
+        width: 100%;
+        .logo {
+        width: 30%;
+          display: table;
+          margin:0 auto map_get($margin, big);
+        }
+        .input_area {
+          width: 80%;
+              border-color: grey;
+    border-style: solid;
+    border-width: thin;
+    opacity: 0.5;
+          display: flex;
+          background-color: #fff;
+          border-radius: 6px;
+          height: map_get($height, btnheight);
+          overflow: hidden;
+          margin-bottom: map_get($margin, small);
+          ion-icon {
+            margin: auto;
+            padding: 0 16px;
+            color: map_get($colors, lightdark);
+            font-size: map_get($font, small);
+          }
+          input {
+            border: 0;
+            flex: 1;
+            background-color: transparent;
+            margin: auto;
+            height: map_get($height, btnheight);
+            font-size: map_get($font, small);
+          }
+
+          input::-webkit-input-placeholder {
+            color: map_get($colors, lightdark) !important;
+            font-size: map_get($font, bitsmall) !important;
+          }
+
+          input:-moz-placeholder { /* Firefox 18- */
+            color: map_get($colors, lightdark) !important;
+            font-size: map_get($font, bitsmall) !important;
+          }
+
+          input::-moz-placeholder { /* Firefox 19+ */
+            color: map_get($colors, lightdark) !important;
+            font-size: map_get($font, bitsmall) !important;
+          }
+
+          input:-ms-input-placeholder {
+            color: map_get($colors, lightdark) !important;
+            font-size: map_get($font, bitsmall) !important;
+          }
+        }
+
+        button{
+          width: 80%;
+              height: 40px;
+        }
+        .forgotpassword_section {
+          display: flex;
+          justify-content: space-between;
+          .button.button-small {
+            font-size: map_get($font, bitsmall);
+            margin: 0;
+            padding: 0;
+            margin-top: 16px;
+          }
+        }
+      }
+      ion-footer {
+        display: flex;
+        .button.button {
+          margin: 0;
+          flex: 1;
+          height: map_get($height, btnheight);
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}
+
