@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/incremental/mergeX86DebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

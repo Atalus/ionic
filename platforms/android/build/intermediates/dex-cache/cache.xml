@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-appcompat-v7-25.3.1_9811cd323d7e3b1b14235ee3c19285abf9658962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/23.53.589.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="834071525d6d2707eb4c7f76b728d8cd14b17ae1">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/org.xwalk-xwalk_core_library-23.53.589.4_3f81eb1b7ca13360f7f6d712ac76306a69ba2d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-core-ui-25.3.1_b1a73be7702ef15bec22210c52e94b482e7b7c60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/support-annotations-25.3.1_7ff4595879be6cf6ac2f63f377298a8cf1ddf60a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-core-utils-25.3.1_d891ce097d88ff33b927c36f67fa560f4a5f9656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-animated-vector-drawable-25.3.1_36b1d8d079de6552f5b55017b16635ff9ae8b764.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-vector-drawable-25.3.1_e793cc1d1b55b01ae2a4b0a3e4044dfb7bf11c57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-v4-25.3.1_a5538d0783336fd9b8bc1c8cc0651dcdaa15c893.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-media-compat-25.3.1_24c29c5820818f284d6c2b2bb4e55d74c759cd5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-fragment-25.3.1_c096c9fcd7bf582ca87e3f530fd623308d8e27a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/barcodescanner/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd90253b55403aaf6ed1c913904d8bc1f19e6ff4">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/intermediates-exploded-aar-barcodescanner_d3187b6b0289d6b647c50b3e30e7fee9b0709237.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-compat-25.3.1_a20b1f0d24a24bd7f83160f32bcca64cf5e0f363.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/libs/sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/sqlite-connector_2c6a0437a4353937e88b6df00658e2436c4f97ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/platforms/android/build/intermediates/pre-dexed/armv7/debug/CordovaLib-6.2.3-debug_be0b0344d47a599236c311006bba64846ea6b055.jar" />
+    </item>
+
+</items>

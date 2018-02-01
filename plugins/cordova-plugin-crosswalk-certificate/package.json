@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-crosswalk-certificate",
+        "scope": null,
+        "escapedName": "cordova-plugin-crosswalk-certificate",
+        "name": "cordova-plugin-crosswalk-certificate",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-crosswalk-certificate@latest",
+  "_id": "cordova-plugin-crosswalk-certificate@2.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-crosswalk-certificate",
+  "_npmUser": {
+    "name": "danjarvis",
+    "email": "djarvis270@gmail.com"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-crosswalk-certificate",
+    "scope": null,
+    "escapedName": "cordova-plugin-crosswalk-certificate",
+    "name": "cordova-plugin-crosswalk-certificate",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-crosswalk-certificate/-/cordova-plugin-crosswalk-certificate-2.0.1.tgz",
+  "_shasum": "8902492953da78005b55c3a599958262f8ea0b3b",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-crosswalk-certificate",
+  "_where": "/Users/Atalusmac/Documents/work/clientes/Dase IVEI/app/ivei/node_modules",
+  "author": {
+    "name": "Daniel Jarvis"
+  },
+  "bugs": {
+    "url": "https://github.com/danjarvis/cordova-plugin-crosswalk-certificate/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-crosswalk-certificate",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin to enable the use of untrusted (self-signed) SSL Certificates with Crosswalk.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8902492953da78005b55c3a599958262f8ea0b3b",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-crosswalk-certificate/-/cordova-plugin-crosswalk-certificate-2.0.1.tgz"
+  },
+  "gitHead": "d94d92cdf7c4440d92614eb04332af6b0fb1de3e",
+  "homepage": "https://github.com/danjarvis/cordova-plugin-crosswalk-certificate",
+  "keywords": [
+    "cordova",
+    "crosswalk",
+    "certificates",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "danjarvis",
+      "email": "djarvis270@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-crosswalk-certificate",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjarvis/cordova-plugin-crosswalk-certificate.git"
+  },
+  "scripts": {},
+  "version": "2.0.1"
+}
